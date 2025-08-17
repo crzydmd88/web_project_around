@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Tripleten Around the US />
+    <meta name="author" content="Victoria Maldonado" />
+    <meta name="keywords" content="html, css, javascript" />
+    <title>Around the US</title>
+    <link rel="stylesheet" href="./pages/index.css" />
+    <link rel="icon" href="./favicon.png" />
+  </head>
+
+  <body>
+    <div class="page">
+      <div class="popup">
+        <button type="button" class="popup__button popup__button_close">
+          &#x2715;
+        </button>
+        
+        <form action="" class="popup__container">
+          <h2 class="popup__subtitle">Editar perfil</h2>
+          <fieldset class="popup__content">
+            <input
+              type="text"
+              class="popup__input popup__input_name"
+              placeholder="Nombre"
+            />
+            <input
+              type="text"
+              class="popup__input popup__input_about"
+              placeholder="Acerca de mí"
+            />
+          </fieldset>
+          <fieldset class="popup__content">
+            <button type="submit" class="popup__button popup__button_save">
+              Guardar
+            </button>
+          </fieldset>
+        </form>
+      </div>
+      
+      <header class="header">
+        <img src="../images/Vector.png" alt="logo-page" class="header__image" />
+      </header>
+      <main class="main">
+        <div class="main__profile">
+          <div class="main__content-image">
+            <img
+              src="../images/foto-perfil.jpg"
+              alt="profile-image"
+              class="main__profile-image"
+            />
+          </div>
+          <div class="main__content-paragraph">
+            <p class="main__paragraph main__paragraph_name">Victoria Maldonado</p>
+            <p class="main__paragraph main__paragraph_about">Estudiante</p>
+            <button type="button" class="main__button main__button_edit">
+              &#x1F58C;
+            </button>
+          </div>
+          <button type="button" class="main__button main__button_add">
+            &#x002B;
+          </button>
+        </div>
+
+        <div class="main__gallery">
+          <div class="main__gallery-card">
+            <img
+              src="../images/Antilope-canyon.png"
+              alt="Antilope-canyon"
+              class="main__gallery-image"
+            />
+            <div class="main__gallery-content">
+               <p class="main__gallery-paragraph main__gallery-paragraph_text_overflow">
+                Antilope Canyon</p>
+                <span class="main__button_like heart">♡</span>
+            </div>
+          </div>
+          <div class="main__gallery-card">
+            <img
+              src="../images/Alaska.png"
+              alt="Alaska"
+              class="main__gallery-image"
+            />
+            <div class="main__gallery-content">
+               <p class="main__gallery-paragraph main__gallery-paragraph_text_overflow">
+                Alaska</p>
+             <span class="main__button_like heart">♡</span>
+            </div>
+          </div>
+          <div class="main__gallery-card">
+            <img
+              src="../images/Mojave-desert.png"
+              alt="Mojave-desert"
+              class="main__gallery-image"
+            />
+            <div class="main__gallery-content">
+               <p class="main__gallery-paragraph main__gallery-paragraph_text_overflow">
+                Mojave Desert</p>
+              <span class="main__button_like heart">♡</span>
+            </div>
+          </div>
+          <div class="main__gallery-card">
+            <img
+              src="../images/Sequoia.png"
+              alt="Sequoia"
+              class="main__gallery-image"
+            />
+            <div class="main__gallery-content">
+               <p class="main__gallery-paragraph main__gallery-paragraph_text_overflow">
+                Sequoia National Park</p>
+              <span class="main__button_like heart">♡</span>
+            </div>
+          </div>
+          <div class="main__gallery-card">
+            <img
+              src="../images/Havasu-falls.png"
+              alt="Havasu-falls"
+              class="main__gallery-image"
+            />
+            <div class="main__gallery-content">
+              <p
+                class="main__gallery-paragraph main__gallery-paragraph_text_overflow"
+              >Havasu Falls</p>
+             <span class="main__button_like heart">♡</span>
+            </div>
+          </div>
+          <div class="main__gallery-card">
+            <img
+              src="../images/Yosemite.png"
+              alt="Yosemite"
+              class="main__gallery-image"
+            />
+            <div class="main__gallery-content">
+              <p class="main__gallery-paragraph main__gallery-paragraph_text_overflow">
+                Yosemite National Park</p>
+              <span class="main__button_like heart">♡</span>
+            </div>
+          </div>
+        </div>
+
+      </main>
+      <footer class="footer" id="footer">
+        <p class="footer__copyright">&copy;2025 Victoria Maldonado</p>
+      </footer>
+    </div>
+    <script src="./scripts/index.js"></script>
+  </body>
+</html>
